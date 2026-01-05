@@ -1,3 +1,4 @@
-inst/doc
+# .gitignore
 /*.md
 !/README.md
+!/prompt.md

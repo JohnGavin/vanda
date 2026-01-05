@@ -4,4 +4,4 @@
 ^.*\.md$
 ^AGENTS\.md$
 ^prompt\.md$
-^(?!README\.md$).*\.md$
+^(?!(README|prompt)\.md$).*\.md$
