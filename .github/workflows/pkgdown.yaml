@@ -24,7 +24,8 @@ jobs:
           use-public-rspm: true
 
       - name: Install system dependencies
-        run: sudo apt-get install -y libcurl4-openssl-dev qpdf
+        # Re-adding these because setup-r-dependencies failed to install pkgdown deps (textshaping) without them.
+        run: sudo apt-get install -y libcurl4-openssl-dev qpdf libharfbuzz-dev libfribidi-dev libpng-dev libtiff5-dev libjpeg-dev
 
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
