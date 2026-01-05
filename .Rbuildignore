@@ -1,3 +1,7 @@
 ^LICENSE\.md$
 ^AGENTS\.md$
 ^prompt\.md$
+^.*\.md$
+^AGENTS\.md$
+^prompt\.md$
+^(?!README\.md$).*\.md$
