@@ -29,7 +29,7 @@ print(client)
 #> [1] "https://mcp.vam.ac.uk/mcp/"
 #> 
 #> $session_start
-#> [1] "2026-01-05 15:28:11 UTC"
+#> [1] "2026-01-05 15:46:16 UTC"
 #> 
 #> attr(,"class")
 #> [1] "vanda_client"
